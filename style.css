@@ -1,0 +1,77 @@
+ body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+.container{
+  background:rgba(0,0,0,0.5);
+  width: 80%;
+  margin: 2%;
+}
+
+header .logo{
+  margin-top: 10%;
+  width: 20%;
+  margin-left: 45%;
+}
+
+header .title{
+  color: 	#39FF14;
+  text-align: center;
+}
+
+.button{
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 4px solid #39FF14;
+  text-align: center;
+  background-color: #39FF14;
+}
+
+.section1, .section2, .section3{
+  margin-left: 10%;
+  color: white;
+  margin-top: 2%;
+  font-size: 20px;
+  font-family: Georgia, serif;
+  margin-bottom: 3%;
+}
+
+.status .indicazione{
+  font-size: 15px;
+}
+
+.status .indicazione:before{
+  content: ' \21A6';
+}
+
+.status .stato_carica{
+  font-size: 15px;
+}
+
+.section1>.batteria{
+  width: 350px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 7px;
+}
+
+.section2>.batteria{
+  width: 800px;
+  height: 20px;
+  background-color: green;
+  border-radius: 7px;
+}
+
+.section3>.batteria{
+  width: 123px;
+  height: 20px;
+  background-color: red;
+  border-radius: 7px;
+}
+
+.status{
+  padding-bottom: 3%;
+}
